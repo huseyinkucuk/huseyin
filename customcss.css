@@ -1,0 +1,19 @@
+@charset "utf-8";
+.p0{
+	padding: 0px;
+}
+.m0{
+	margin-left:-15px;
+}
+.w100{
+	width: 100%;
+	text-align: center;
+	max-height: 300px;
+}
+.wmenu{
+	text-align: center;
+	padding: 5px;
+}
+.wmt{
+	width: 100%;
+}
