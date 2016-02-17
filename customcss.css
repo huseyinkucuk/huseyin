@@ -17,3 +17,8 @@
 .wmt{
 	width: 100%;
 }
+
+.elaman img
+{
+    min-height:300px !important;
+}

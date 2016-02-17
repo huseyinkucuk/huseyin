@@ -62,27 +62,27 @@ var glb_siradakiEleman = 0;
 
 var elemanlar = [
     {
-        "resim" : "http://placehold.it/1130x300/?text=birinci+resim",
+        "resim" : "http://lorempixel.com/1130/300/sports/1",
         "baslik": "Birinci baslik",
         "yazi"  : "Lorem ipsum dolor sit amet.. 111"
     },
     {
-        "resim" : "http://placehold.it/1130x300/?text=ikinci+resim",
+        "resim" : "http://lorempixel.com/1130/300/sports/2",
         "baslik": "Ikinci baslik",
         "yazi"  : "Lorem ipsum dolor sit amet.. 22"
     },
     {
-        "resim" : "http://placehold.it/1130x300/?text=ucuncu+resim",
+        "resim" : "http://lorempixel.com/1130/300/sports/3",
         "baslik": "Ucuncu baslik",
         "yazi"  : "Lorem ipsum dolor sit amet.. 33"
     },
     {
-        "resim" : "http://placehold.it/1130x300/?text=dorduncu+resim",
+        "resim" : "http://lorempixel.com/1130/300/sports/6",
         "baslik": "Dorduncu baslik",
         "yazi"  : "Lorem ipsum dolor sit amet.. 44"
     },
     {
-        "resim" : "http://placehold.it/1130x300/?text=besinci+resim",
+        "resim" : "http://lorempixel.com/1130/300/sports/5",
         "baslik": "Besinci baslik",
         "yazi"  : "Lorem ipsum dolor sit amet.. 55"
     },
