@@ -21,7 +21,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Project name</a>
+            <a class="navbar-brand" href="#">Training</a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
@@ -42,21 +42,21 @@
               </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Background <span class="caret"></span></a>
-                    <ul class="dropdown-menu wmenu">
-                        <li><button class="btn btn-success wmt" onclick="green()" >Yeşil</button></li>
-                        <li><button class="btn btn-primary wmt" style="margin-top: 5px" onclick="mavi()">Mavi</button></li>
-                        <li><button class="btn btn-danger wmt" style="margin-top: 5px" onclick="red()">Kırmızı</button></li>
-                        <li role="separator" class="divider"></li>
-                        <li><button class="btn btn-default wmt" onclick="yaz()" id="solbtn">Değiştir</button></li>
-                    </ul>
-                </li>
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Background <span class="caret"></span></a>
+                  <ul class="dropdown-menu wmenu">
+                      <li><button class="btn btn-default wmt" onclick="beyaz()" >Beyaz</button></li>
+                      <li><button class="btn btn-default wmt gributon"  onclick="gri()" >Gri</button></li>
+                      <li><button class="btn btn-success wmt" style="margin-top: 5px" onclick="green()" >Yeşil</button></li>
+                      <li><button class="btn btn-primary wmt" style="margin-top: 5px" onclick="mavi()">Mavi</button></li>
+                      <li><button class="btn btn-danger wmt" style="margin-top: 5px" onclick="red()">Kırmızı</button></li>
+                      <li role="separator" class="divider"></li>
+                      <li><button class="btn btn-default wmt" onclick="yaz()" id="solbtn">Değiştir</button></li>
+                  </ul>
+              </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
-              <li><a href="../navbar-static-top/">Static top</a></li>
-              <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+              <li><a href="#">Default <span class="sr-only">(current)</span></a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.container-fluid -->
@@ -66,21 +66,24 @@
     
     
 
-    <! ------------------------------------------ JUMBOTROM ------------------------------------------ !>
+    <! ------------------------------------------ SLIDER ------------------------------------------ !>
 
       <div class="row elaman">
-        <div class="col-sm-6 col-md-12">
+        <div class="col-sm-12 col-md-12">
           <div class="thumbnail">
-            <img src="" alt="yükleniyor...">
+
+           <div >
+               <img src="" class="img-responsive" alt="yükleniyor...">
+                  <button href="#" class="btn btn-success sliderbonceki" role="button" onclick="onceki()">Önceki</button>
+                  <div class="sliderbsonraki">   
+                    <button href="#" class="btn btn-danger sliderbonceki " role="button" onclick="sonraki()">Sonraki </button>  
+                  </div>            
+               </img>
+            </div>  
+
             <div class="caption">
               <h3>1</h3>
               <p></p>
-              <a href="#" class="btn btn-success" role="button" onclick="onceki()">
-                  Önceki
-              </a> 
-              <a href="#" class="btn btn-danger" style="float: right;" role="button" onclick="sonraki()">
-                  Sonraki
-              </a>
             </div>
           </div>
         </div>
@@ -89,16 +92,19 @@
         <div class="row elaman">
         <div class="col-sm-6 col-md-12">
           <div class="thumbnail">
-            <img src="" alt="yükleniyor...">
+
+           <div >
+               <img src="" class="img-responsive" alt="yükleniyor...">
+                  <button href="#" class="btn btn-success sliderbonceki" role="button" onclick="onceki()">Önceki</button>
+                  <div class="sliderbsonraki">   
+                    <button href="#" class="btn btn-danger sliderbonceki " role="button" onclick="sonraki()">Sonraki </button>  
+                  </div>              
+               </img>
+            </div>  
+
             <div class="caption">
               <h3>2</h3>
-              <p></p>
-              <a href="#" class="btn btn-success" role="button" onclick="onceki()">
-                  Önceki
-              </a> 
-              <a href="#" class="btn btn-danger" style="float: right;" role="button" onclick="sonraki()">
-                  Sonraki
-              </a>
+              <p></p>             
             </div>
           </div>
         </div>
@@ -107,16 +113,19 @@
       <div class="row elaman">
         <div class="col-sm-6 col-md-12">
           <div class="thumbnail">
-            <img src="" alt="yükleniyor...">
+
+           <div >
+               <img src="" class="img-responsive" alt="yükleniyor...">
+                  <button href="#" class="btn btn-success sliderbonceki" role="button" onclick="onceki()">Önceki</button>
+                  <div class="sliderbsonraki">   
+                    <button href="#" class="btn btn-danger sliderbonceki " role="button" onclick="sonraki()">Sonraki </button>  
+                  </div>          
+               </img>
+            </div>  
+
             <div class="caption">
               <h3>3</h3>
               <p></p>
-              <a href="#" class="btn btn-success" role="button" onclick="onceki()">
-                  Önceki
-              </a> 
-              <a href="#" class="btn btn-danger" style="float: right;" role="button" onclick="sonraki()">
-                  Sonraki
-              </a>
             </div>
           </div>
         </div>
@@ -125,16 +134,18 @@
       <div class="row elaman">
         <div class="col-sm-6 col-md-12">
           <div class="thumbnail">
-            <img src="" alt="yükleniyor...">
+           <div >
+               <img src="" class="img-responsive" alt="yükleniyor...">
+                  <button href="#" class="btn btn-success sliderbonceki" role="button" onclick="onceki()">Önceki</button>
+                  <div class="sliderbsonraki">   
+                    <button href="#" class="btn btn-danger sliderbonceki " role="button" onclick="sonraki()">Sonraki </button>  
+                  </div>            
+               </img>
+            </div>  
+
             <div class="caption">
               <h3>3</h3>
               <p></p>
-              <a href="#" class="btn btn-success" role="button" onclick="onceki()">
-                  Önceki
-              </a> 
-              <a href="#" class="btn btn-danger" style="float: right;" role="button" onclick="sonraki()">
-                  Sonraki
-              </a>
             </div>
           </div>
         </div>
@@ -143,16 +154,19 @@
       <div class="row elaman">
         <div class="col-sm-6 col-md-12">
           <div class="thumbnail">
-            <img src="" alt="yükleniyor...">
+
+             <div >
+               <img src="" class="img-responsive" alt="yükleniyor...">
+                  <button href="#" class="btn btn-success sliderbonceki" role="button" onclick="onceki()">Önceki</button>
+                  <div class="sliderbsonraki">   
+                    <button href="#" class="btn btn-danger sliderbonceki " role="button" onclick="sonraki()">Sonraki </button>  
+                  </div>      
+               </img>
+            </div>  
+
             <div class="caption">
               <h3>3</h3>
               <p></p>
-              <a href="#" class="btn btn-success" role="button" onclick="onceki()">
-                  Önceki
-              </a> 
-              <a href="#" class="btn btn-danger" style="float: right;" role="button" onclick="sonraki()">
-                  Sonraki
-              </a>
             </div>
           </div>
         </div>
@@ -166,7 +180,7 @@
 
         <div class="col-sm-6 col-md-4">
           <div class="thumbnail">
-            <img src="http://placehold.it/242x200/" alt="..." class=" img-responsive w100" >
+            <img src="http://lorempixel.com/350/289/sports/10" alt="yükleniyor..." class=" img-responsive w100" >
             <div class="caption">
               <h3>Thumbnail label</h3>
               <p>something something something something something something something something</p>
@@ -177,7 +191,7 @@
 
         <div class="col-sm-6 col-md-4">
           <div class="thumbnail">
-            <img src="http://placehold.it/242x200/" alt="..." class=" img-responsive w100">
+            <img src="http://lorempixel.com/350/289/sports/3" alt="yükleniyor..." class=" img-responsive w100">
             <div class="caption">
               <h3>Thumbnail label</h3>
               <p>something something something something something something something something</p>
@@ -188,7 +202,7 @@
 
         <div class="col-sm-6 col-md-4">
           <div class="thumbnail">
-            <img src="http://placehold.it/242x200/" alt="..." class=" img-responsive w100">
+            <img src="http://lorempixel.com/350/289/sports/2" alt="yükleniyor..." class=" img-responsive w100">
             <div class="caption">
               <h3>Thumbnail label</h3>
               <p>something something something something something something something something</p>
@@ -203,10 +217,10 @@
     <! ------------------------------------ sub CONTENT 2 --------------------------------------------- !>
 
 
-        <div class="row">
+    <div class="row">
       <div class="col-sm-6 col-md-6">
         <div class="thumbnail">
-          <img src="http://placehold.it/180x200" alt="..." class=" img-responsive w100">
+          <img src="http://lorempixel.com/545/300/sports/10" alt="yükleniyor..." class=" img-responsive w100">
           <div class="caption">
             <h3>TITLE</h3>
             <p> something something something something something something something something something something something something something something something something something something something something something</p>
@@ -216,7 +230,7 @@
       </div>
         <div class="col-sm-6 col-md-6">
         <div class="thumbnail">
-          <img src="http://placehold.it/180x200" alt="..." class=" img-responsive w100">
+          <img src="http://lorempixel.com/545/300/sports/9" alt="yükleniyor..." class=" img-responsive w100">
           <div class="caption">
             <h3>TITLE</h3>
             <p> something something something something something something something something something something something something something something something something something something something something something</p>
@@ -228,49 +242,58 @@
 
 
 
-    <! ------------------------------------ FOOTER --------------------------------------------- !>
 
 
-    <div class="row">
-            <dir class="col-md-4">
-                <img src="http://placehold.it/180x200" class="w100">
-            </dir>
-            <dir class="col-md-4">
-                <p><strong>HEAD</strong></p>
-                <p> something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something</p>
-            </dir>
-            <dir class="col-md-4">
-                <p><strong>HEAD</strong></p>
-                <p> something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something</p>
-            </dir>
-    </div>
 
-    <! ----------------------------- UstMODAL ---------------------------------------------- !>
 
-    <div class="modal fade" tabindex="-1" role="dialog" id="ustmodal">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Modal title</h4>
-          </div>
-          <div class="modal-body">
-            <p>One fine body&hellip;</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
 
-    <! ------------------------------------------------------------------------------- !>
 
-    </div>
-<script type="text/javascript" src="js/jquery/jquery-2.2.0.min.js"></script>
-<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
-<script type="text/javascript" src="js/customjs.js"></script>
+
+
+  </div>
+
+
+<! -------------------------------------------------     FOOTER    ------------------------------------------------------------------------------------- >
+<div class="footer">
+
+  <footer class="container p0">
+      
+      <div class="row">
+
+        <dir class="col-md-4">
+            <img src="http://placehold.it/180x200" class="w100">
+        </dir>
+        <dir class="col-md-4">
+            <p><strong>HEAD</strong></p>
+            <p> something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something</p>
+        </dir>
+        <dir class="col-md-4">
+            <p><strong>HEAD</strong></p>
+            <p> something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something something</p>
+        </dir>
+
+      </div>
+
+  </footer>
+
+</div>
+
+<! -------------------------------------------------------------------------------------------------------------------------------------- >
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="js/jquery/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/customjs.js"></script>
 
 </body>
 </html>

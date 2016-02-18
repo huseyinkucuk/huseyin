@@ -1,3 +1,4 @@
+ /* ---------------------------------------------- NAVBAR BACROUND BUTTONS ------------------ */
  function mavi()
 {
 	//document.body.style.backgroundColor = "blue";
@@ -5,9 +6,9 @@
 	$("body").css({backgroundColor : "blue"});
 }
 
-function yellow()
+function beyaz()
 {
-	$("body").css({backgroundColor : "yellow"});
+	$("body").css({backgroundColor : "white"});
 }
 
 function green()
@@ -19,6 +20,13 @@ function red()
 {
 	$("body").css({backgroundColor: "red"});
 }
+
+function gri()
+{
+    $("body").css({backgroundColor : "gray"});
+}
+
+/* --------------------------------- SlIDER--------------------------------------- */
 
 
 var renkler=["blue","gray","green","red"];
@@ -46,7 +54,7 @@ $(function(){
 
 });
 
-/* --------------------------------------  SLIDER --------------------------------- */
+/* --------------------------------------  SLIDER - DEVAM--------------------------------- */
 
 
 $(function(){
@@ -64,27 +72,27 @@ var elemanlar = [
     {
         "resim" : "http://lorempixel.com/1130/300/sports/1",
         "baslik": "Birinci baslik",
-        "yazi"  : "Lorem ipsum dolor sit amet.. 111"
+        "yazi"  : "Lorem ipsum dolor sit amet, sed ex mazim ponderum. Has elit possim consulatu an, verear saperet ad mei, pro error dicit et. Sea agam aperiri et, his alii deleniti cu. Velit scripta efficiendi nec ex, dicat lucilius cum ea. Alienum dolores per in, his probo blandit patrioque ad. Sea et meis quaeque phaedrum Lorem ipsum dolor sit amet, sed ex mazim ponderum. Has elit possim consulatu an, verear saperet ad mei, pro error dicit et. Sea agam aperiri et, his alii deleniti cu. Velit scripta efficiendi nec ex, dicat lucilius cum ea. Alienum dolores per in, his probo blandit patrioque ad. Sea et meis quaeque phaedrum Lorem ipsum dolor sit amet, sed ex mazim ponderum. Has elit possim consulatu an, verear saperet ad mei, pro error dicit et. Sea agam aperiri et, his alii deleniti cu. Velit scripta efficiendi nec ex, dicat lucilius cum ea. Alienum dolores per in, his probo blandit patrioque ad. Sea et meis quaeque phaedrumId ius laudem civibus blandit, ne per vero referrentur, laoreet omnesque te sed. Sed congue munere laoreet ex, no partem scripta concludaturque eam. Ea autem velit pericula sea, meis saepe mei at, quem sensibus salutatus ut has. Detracto principes mei ad, ponderum sapientem liberavisse et mea, ut maiorum officiis inciderint his. No putant latine pro. Duo ea alia iudicabit elaboraret, sea ei omnes dignissim, mea et graeci persius. Ea vim iriure vivendum, sed vidisse albucius te."
     },
     {
         "resim" : "http://lorempixel.com/1130/300/sports/2",
         "baslik": "Ikinci baslik",
-        "yazi"  : "Lorem ipsum dolor sit amet.. 22"
+        "yazi"  : "Vel augue utroque mandamus at. No qui maiorum albucius, ei falli pericula eam. Aliquip eruditi salutandi eu vim, ne sea quem tractatos comprehensam, ut inciderint signiferumque duo. Vis wisi disputando cu.Duo utinam audire ad, wisi affert sapientem ad pri. Cum id stet esse, denique probatus eum ad, vel eu tamquam euripidis. Duis illud impetus no pro, sea ne soluta corrumpit. Quo eu dicunt recteque, usu at agam persequeris, mei legere deseruisse ut. In cum quaeque sanctus constituto. Eum et unum corpora, molestie convenire vix an.Id ius laudem civibus blandit, ne per vero referrentur, laoreet omnesque te sed. Sed congue munere laoreet ex, no partem scripta concludaturque eam. Ea autem velit pericula sea, meis saepe mei at, quem sensibus salutatus ut has. Detracto principes mei ad, ponderum sapientem liberavisse et mea, ut maiorum officiis inciderint his. No putant latine pro. Duo ea alia iudicabit elaboraret, sea ei omnes dignissim, mea et graeci persius. Ea vim iriure vivendum, sed vidisse albucius te."
     },
     {
         "resim" : "http://lorempixel.com/1130/300/sports/3",
         "baslik": "Ucuncu baslik",
-        "yazi"  : "Lorem ipsum dolor sit amet.. 33"
+        "yazi"  : "Eros malorum ius eu. Mea ne oratio intellegat. Ut scripserit conclusionemque duo, sit saperet deseruisse ne. Vel congue ullamcorper ex. Ius quaeque repudiandae ad, ei quod aliquip officiis vel. At pri doctus petentium suscipiantur.Duo utinam audire ad, wisi affert sapientem ad pri. Cum id stet esse, denique probatus eum ad, vel eu tamquam euripidis. Duis illud impetus no pro, sea ne soluta corrumpit. Quo eu dicunt recteque, usu at agam persequeris, mei legere deseruisse ut. In cum quaeque sanctus constituto. Eum et unum corpora, molestie convenire vix an.Id ius laudem civibus blandit, ne per vero referrentur, laoreet omnesque te sed. Sed congue munere laoreet ex, no partem scripta concludaturque eam. Ea autem velit pericula sea, meis saepe mei at, quem sensibus salutatus ut has. Detracto principes mei ad, ponderum sapientem liberavisse et mea, ut maiorum officiis inciderint his. No putant latine pro. Duo ea alia iudicabit elaboraret, sea ei omnes dignissim, mea et graeci persius. Ea vim iriure vivendum, sed vidisse albucius te."
     },
     {
         "resim" : "http://lorempixel.com/1130/300/sports/6",
         "baslik": "Dorduncu baslik",
-        "yazi"  : "Lorem ipsum dolor sit amet.. 44"
+        "yazi"  : "Lorem ipsum dolor sit amet, vix periculis vituperata ad, vix et offendit neglegentur, singulis urbanitas voluptatum te mea. Usu no altera efficiendi, no hinc ornatus persequeris per, laoreet copiosae consetetur an mel. Regione equidem sea ad, te nemore lucilius dissentiet sea, te vis sonet nemore voluptua. Meis porro integre id eum. Qui ut brute dissentias delicatissimi, laudem inciderint ex has, an sed labore aeterno aliquipHas elit possim consulatu an, verear saperet ad mei, pro error dicit et. Sea agam aperiri et, his alii deleniti cu.Id ius laudem civibus blandit, ne per vero referrentur, laoreet omnesque te sed. Sed congue munere laoreet ex, no partem scripta concludaturque eam. Ea autem velit pericula sea, meis saepe mei at, quem sensibus salutatus ut has. Detracto principes mei ad, ponderum sapientem liberavisse et mea, ut maiorum officiis inciderint his. No putant latine pro. Duo ea alia iudicabit elaboraret, sea ei omnes dignissim, mea et graeci persius. Ea vim iriure vivendum, sed vidisse albucius te."
     },
     {
         "resim" : "http://lorempixel.com/1130/300/sports/5",
         "baslik": "Besinci baslik",
-        "yazi"  : "Lorem ipsum dolor sit amet.. 55"
+        "yazi"  : "Duo utinam audire ad, wisi affert sapientem ad pri. Cum id stet esse, denique probatus eum ad, vel eu tamquam euripidis. Duis illud impetus no pro, sea ne soluta corrumpit. Quo eu dicunt recteque, usu at agam persequeris, mei legere deseruisse ut. In cum quaeque sanctus constituto. Eum et unum corpora, molestie convenire vix an.Id ius laudem civibus blandit, ne per vero referrentur, laoreet omnesque te sed. Sed congue munere laoreet ex, no partem scripta concludaturque eam. Ea autem velit pericula sea, meis saepe mei at, quem sensibus salutatus ut has. Detracto principes mei ad, ponderum sapientem liberavisse et mea, ut maiorum officiis inciderint his. No putant latine pro. Duo ea alia iudicabit elaboraret, sea ei omnes dignissim, mea et graeci persius. Ea vim iriure vivendum, sed vidisse albucius te.Id ius laudem civibus blandit, ne per vero referrentur, laoreet omnesque te sed. Sed congue munere laoreet ex, no partem scripta concludaturque eam. Ea autem velit pericula sea, meis saepe mei at, quem sensibus salutatus ut has. Detracto principes mei ad, ponderum sapientem liberavisse et mea, ut maiorum officiis inciderint his. No putant latine pro. Duo ea alia iudicabit elaboraret, sea ei omnes dignissim, mea et graeci persius. Ea vim iriure vivendum, sed vidisse albucius te."
     },
 ];
 // arastir : JSON
