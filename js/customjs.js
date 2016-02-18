@@ -26,7 +26,7 @@ function gri()
     $("body").css({backgroundColor : "gray"});
 }
 
-/* --------------------------------- SlIDER--------------------------------------- */
+/* --------------------------------- AUTO BACKGROUND DEGISTIRME --------------------------------------- */
 
 
 var renkler=["blue","gray","green","red"];
@@ -54,7 +54,11 @@ $(function(){
 
 });
 
-/* --------------------------------------  SLIDER - DEVAM--------------------------------- */
+/* ------------------------------------------------------------------------------------------- */
+
+
+
+/* --------------------------------------  SLIDER  BUTONLARI --------------------------------- */
 
 
 $(function(){
@@ -99,7 +103,7 @@ var elemanlar = [
 
 
 
-
+/* --------------------------------------  SLIDER  SONRAKI BUTONU --------------------------------- */
 
 
 function sonraki()
@@ -122,7 +126,7 @@ function sonraki()
 
 
 
-/* -------------------------------------------- GERI BUTONU --------------------------- */
+/* -------------------------------------------- SLIDER ONCEKI BUTONU ------------------------------- */
 
 
 
@@ -144,6 +148,84 @@ function onceki()
     
     $('.elaman:eq(' + glb_siradakiEleman + ')').show();
 }
+
+
+/* ------------------------------------------------------------------------------------------------- */
+
+
+
+/* ----------------------------- ICERIK BIR - RESME TIKLANILDIGINDA -------------------------------- */
+
+$("#icerikbirresim").click(
+
+    function () 
+    {
+
+        $("#divbir").fadeOut("0").fadeIn("slow");
+        $("#icerikrow").append('<div class= "col-md-8 col-sm-12 " id="cikanyazi">Lorem ipsum dolor sit amet, sed ex mazim ponderum. Has elit possim consulatu an, verear saperet ad mei, pro error dicit et. Sea agam aperiri et, his alii deleniti cu. Velit scripta efficiendi nec ex, dicat lucilius cum ea. Alienum dolores per in, his probo blandit patrioque ad. Sea et meis quaeque phaedrum Lorem ipsum dolor sit amet, sed ex mazim ponderum. Has elit possim consulatu an, verear saperet ad mei, pro error dicit et. Sea agam aperiri et, his alii deleniti cu. Velit scripta efficiendi nec ex, dicat lucilius cum ea. Alienum dolores per in, his probo blandit patrioque ad. Sea et meis quaeque phaedrum Lorem ipsum dolor sit amet, sed ex mazim ponderum. Has elit possim consulatu an, verear saperet ad mei, pro error dicit et. Sea agam aperiri et, his alii deleniti cu. Velit scripta efficiendi nec ex, dicat lucilius cum ea. Alienum dolores per in, his probo blandit patrioque ad. Sea et meis quaeque phaedrumId ius laudem civibus blandit, ne per vero referrentur, laoreet omnesque te sed. Sed congue munere laoreet ex, no partem scripta concludaturque eam. Ea autem velit pericula sea, meis saepe mei at, quem sensibus salutatus ut has. Detracto principes mei ad, ponderum sapientem liberavisse et mea, ut maiorum officiis inciderint his. No putant latine pro. Duo ea alia iudicabit elaboraret, sea ei omnes dignissim, mea et graeci persius. Ea vim iriure vivendum, sed vidisse albucius te.</div>');
+        $("#diviki").fadeOut( "slow" );
+        $("#divuc").fadeOut( "slow" );
+
+
+    }
+);
+
+
+
+
+$("#icerikikiresim").click(
+
+    function () 
+    {
+
+        $("#diviki").fadeOut("0").fadeIn("slow");
+        $("#icerikrow").append('<div class= "col-md-8 col-sm-12 " id="cikanyazi">Lorem ipsum dolor sit amet, sed ex mazim ponderum. Has elit possim consulatu an, verear saperet ad mei, pro error dicit et. Sea agam aperiri et, his alii deleniti cu. Velit scripta efficiendi nec ex, dicat lucilius cum ea. Alienum dolores per in, his probo blandit patrioque ad. Sea et meis quaeque phaedrum Lorem ipsum dolor sit amet, sed ex mazim ponderum. Has elit possim consulatu an, verear saperet ad mei, pro error dicit et. Sea agam aperiri et, his alii deleniti cu. Velit scripta efficiendi nec ex, dicat lucilius cum ea. Alienum dolores per in, his probo blandit patrioque ad. Sea et meis quaeque phaedrum Lorem ipsum dolor sit amet, sed ex mazim ponderum. Has elit possim consulatu an, verear saperet ad mei, pro error dicit et. Sea agam aperiri et, his alii deleniti cu. Velit scripta efficiendi nec ex, dicat lucilius cum ea. Alienum dolores per in, his probo blandit patrioque ad. Sea et meis quaeque phaedrumId ius laudem civibus blandit, ne per vero referrentur, laoreet omnesque te sed. Sed congue munere laoreet ex, no partem scripta concludaturque eam. Ea autem velit pericula sea, meis saepe mei at, quem sensibus salutatus ut has. Detracto principes mei ad, ponderum sapientem liberavisse et mea, ut maiorum officiis inciderint his. No putant latine pro. Duo ea alia iudicabit elaboraret, sea ei omnes dignissim, mea et graeci persius. Ea vim iriure vivendum, sed vidisse albucius te.</div>');
+        $("#divbir").fadeOut( "slow" );
+        $("#divuc").fadeOut( "slow" );
+
+
+    }
+
+);
+
+
+$("#icerikucresim").click(
+
+    function () 
+    {
+
+        $("#divuc").fadeOut("0").fadeIn("slow");
+        $("#icerikrow").append('<div class= "col-md-8 col-sm-12 " id="cikanyazi">Lorem ipsum dolor sit amet, sed ex mazim ponderum. Has elit possim consulatu an, verear saperet ad mei, pro error dicit et. Sea agam aperiri et, his alii deleniti cu. Velit scripta efficiendi nec ex, dicat lucilius cum ea. Alienum dolores per in, his probo blandit patrioque ad. Sea et meis quaeque phaedrum Lorem ipsum dolor sit amet, sed ex mazim ponderum. Has elit possim consulatu an, verear saperet ad mei, pro error dicit et. Sea agam aperiri et, his alii deleniti cu. Velit scripta efficiendi nec ex, dicat lucilius cum ea. Alienum dolores per in, his probo blandit patrioque ad. Sea et meis quaeque phaedrum Lorem ipsum dolor sit amet, sed ex mazim ponderum. Has elit possim consulatu an, verear saperet ad mei, pro error dicit et. Sea agam aperiri et, his alii deleniti cu. Velit scripta efficiendi nec ex, dicat lucilius cum ea. Alienum dolores per in, his probo blandit patrioque ad. Sea et meis quaeque phaedrumId ius laudem civibus blandit, ne per vero referrentur, laoreet omnesque te sed. Sed congue munere laoreet ex, no partem scripta concludaturque eam. Ea autem velit pericula sea, meis saepe mei at, quem sensibus salutatus ut has. Detracto principes mei ad, ponderum sapientem liberavisse et mea, ut maiorum officiis inciderint his. No putant latine pro. Duo ea alia iudicabit elaboraret, sea ei omnes dignissim, mea et graeci persius. Ea vim iriure vivendum, sed vidisse albucius te.</div>');
+        $("#divbir").fadeOut( "slow" );
+        $("#diviki").fadeOut( "slow" );
+
+
+    }
+
+);
+
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+
+
+function geridon () 
+{
+
+
+    $("#cikanyazi").fadeOut( "slow" );
+    $("#diviki").fadeIn("slow");
+    $("#divuc").fadeIn("slow");
+    $("#divbir").fadeIn("slow");
+
+
+
+}
+
+
+
+
+
+
+
 
 
 
