@@ -159,7 +159,7 @@ function onceki()
 $("#icerikbirresim").click(function () {
         if ($('.cikanyazi').length < 1)
         {
-            $('#icerikrow').append("<div class='col-sm-8 cikanyazi'></div>");        
+            $('#icerikrow').append("<button onclick='geridon()' class='btn btn-danger kapatbtn'>     <span class='glyphicon glyphicon glyphicon-remove' aria-hidden='true'></span><span></span>                  </button><div class='col-sm-8 cikanyazi'></div>");        
         }
         
     
@@ -169,6 +169,7 @@ $("#icerikbirresim").click(function () {
         
         $("#diviki").hide();
         $("#divuc").hide();
+        $(".kapatbtn").show(); 
 
 
     }
@@ -177,15 +178,19 @@ $("#icerikbirresim").click(function () {
 
 
 
-$("#icerikikiresim").click(
+$("#icerikikiresim").click(function () {
+        if ($('.cikanyazi').length < 1)
+        {
+            $('#icerikrow').append("<button onclick='geridon()' class='btn btn-danger kapatbtn'> <span class='glyphicon glyphicon glyphicon-remove' aria-hidden='true'></span><span ></span></button>          <div class='col-sm-8 cikanyazi'></div>");        
+        }
 
-    function () 
-    {
+        var mytext = 'Lorem ipsum dolor sit amet, sed ex mazim ponderum. Has elit possim consulatu an, verear saperet ad mei, pro error dicit et. Sea agam aperiri et, his alii deleniti cu. Velit scripta efficiendi nec ex, dicat lucilius cum ea. Alienum dolores per in, his probo blandit patrioque ad. Sea et meis quaeque phaedrum Lorem ipsum dolor sit amet, sed ex mazim ponderum. Has elit possim consulatu an, verear saperet ad mei, pro error dicit et. Sea agam aperiri et, his alii deleniti cu. Velit scripta efficiendi nec ex, dicat lucilius cum ea. Alienum dolores per in, his probo blandit patrioque ad. Sea et meis quaeque phaedrum Lorem ipsum dolor sit amet, sed ex mazim ponderum. Has elit possim consulatu an, verear saperet ad mei, pro error dicit et. Sea agam aperiri et, his alii deleniti cu. Velit scripta efficiendi nec ex, dicat lucilius cum ea. Alienum dolores per in, his probo blandit patrioque ad. Sea et meis quaeque phaedrumId ius laudem civibus blandit, ne per vero referrentur, laoreet omnesque te sed. Sed congue munere laoreet ex, no partem scripta concludaturque eam. Ea autem velit pericula sea, meis saepe mei at, quem sensibus salutatus ut has. Detracto principes mei ad, ponderum sapientem liberavisse et mea, ut maiorum officiis inciderint his. No putant latine pro. Duo ea alia iudicabit elaboraret, sea ei omnes dignissim, mea et graeci persius. Ea vim iriure vivendum, sed vidisse albucius te.';
 
-        $("#diviki").fadeOut("0").fadeIn("slow");
-        $("#icerikrow").append('<div class= "col-md-8 col-sm-12 " id="cikanyazi">Lorem ipsum dolor sit amet, sed ex mazim ponderum. Has elit possim consulatu an, verear saperet ad mei, pro error dicit et. Sea agam aperiri et, his alii deleniti cu. Velit scripta efficiendi nec ex, dicat lucilius cum ea. Alienum dolores per in, his probo blandit patrioque ad. Sea et meis quaeque phaedrum Lorem ipsum dolor sit amet, sed ex mazim ponderum. Has elit possim consulatu an, verear saperet ad mei, pro error dicit et. Sea agam aperiri et, his alii deleniti cu. Velit scripta efficiendi nec ex, dicat lucilius cum ea. Alienum dolores per in, his probo blandit patrioque ad. Sea et meis quaeque phaedrum Lorem ipsum dolor sit amet, sed ex mazim ponderum. Has elit possim consulatu an, verear saperet ad mei, pro error dicit et. Sea agam aperiri et, his alii deleniti cu. Velit scripta efficiendi nec ex, dicat lucilius cum ea. Alienum dolores per in, his probo blandit patrioque ad. Sea et meis quaeque phaedrumId ius laudem civibus blandit, ne per vero referrentur, laoreet omnesque te sed. Sed congue munere laoreet ex, no partem scripta concludaturque eam. Ea autem velit pericula sea, meis saepe mei at, quem sensibus salutatus ut has. Detracto principes mei ad, ponderum sapientem liberavisse et mea, ut maiorum officiis inciderint his. No putant latine pro. Duo ea alia iudicabit elaboraret, sea ei omnes dignissim, mea et graeci persius. Ea vim iriure vivendum, sed vidisse albucius te.</div>');
-        $("#divbir").fadeOut( "slow" );
-        $("#divuc").fadeOut( "slow" );
+        $('.cikanyazi').text(mytext).show();
+
+        $("#divbir").hide();
+        $("#divuc").hide();
+        $(".kapatbtn").show(); 
 
 
     }
@@ -193,15 +198,20 @@ $("#icerikikiresim").click(
 );
 
 
-$("#icerikucresim").click(
+$("#icerikucresim").click(function () {
+        if ($('.cikanyazi').length < 1)
+        {
+            $('#icerikrow').append("<button onclick='geridon()' class='btn btn-danger kapatbtn'> <span class='glyphicon glyphicon glyphicon-remove' aria-hidden='true'></span><span></span></button>   <div class='col-sm-8 cikanyazi'></div>");        
+        }
 
-    function () 
-    {
+        var mytext = 'Lorem ipsum dolor sit amet, sed ex mazim ponderum. Has elit possim consulatu an, verear saperet ad mei, pro error dicit et. Sea agam aperiri et, his alii deleniti cu. Velit scripta efficiendi nec ex, dicat lucilius cum ea. Alienum dolores per in, his probo blandit patrioque ad. Sea et meis quaeque phaedrum Lorem ipsum dolor sit amet, sed ex mazim ponderum. Has elit possim consulatu an, verear saperet ad mei, pro error dicit et. Sea agam aperiri et, his alii deleniti cu. Velit scripta efficiendi nec ex, dicat lucilius cum ea. Alienum dolores per in, his probo blandit patrioque ad. Sea et meis quaeque phaedrum Lorem ipsum dolor sit amet, sed ex mazim ponderum. Has elit possim consulatu an, verear saperet ad mei, pro error dicit et. Sea agam aperiri et, his alii deleniti cu. Velit scripta efficiendi nec ex, dicat lucilius cum ea. Alienum dolores per in, his probo blandit patrioque ad. Sea et meis quaeque phaedrumId ius laudem civibus blandit, ne per vero referrentur, laoreet omnesque te sed. Sed congue munere laoreet ex, no partem scripta concludaturque eam. Ea autem velit pericula sea, meis saepe mei at, quem sensibus salutatus ut has. Detracto principes mei ad, ponderum sapientem liberavisse et mea, ut maiorum officiis inciderint his. No putant latine pro. Duo ea alia iudicabit elaboraret, sea ei omnes dignissim, mea et graeci persius. Ea vim iriure vivendum, sed vidisse albucius te.';
 
-        $("#divuc").fadeOut("0").fadeIn("slow");
-        $("#icerikrow").append('<div class= "col-md-8 col-sm-12 " id="cikanyazi">Lorem ipsum dolor sit amet, sed ex mazim ponderum. Has elit possim consulatu an, verear saperet ad mei, pro error dicit et. Sea agam aperiri et, his alii deleniti cu. Velit scripta efficiendi nec ex, dicat lucilius cum ea. Alienum dolores per in, his probo blandit patrioque ad. Sea et meis quaeque phaedrum Lorem ipsum dolor sit amet, sed ex mazim ponderum. Has elit possim consulatu an, verear saperet ad mei, pro error dicit et. Sea agam aperiri et, his alii deleniti cu. Velit scripta efficiendi nec ex, dicat lucilius cum ea. Alienum dolores per in, his probo blandit patrioque ad. Sea et meis quaeque phaedrum Lorem ipsum dolor sit amet, sed ex mazim ponderum. Has elit possim consulatu an, verear saperet ad mei, pro error dicit et. Sea agam aperiri et, his alii deleniti cu. Velit scripta efficiendi nec ex, dicat lucilius cum ea. Alienum dolores per in, his probo blandit patrioque ad. Sea et meis quaeque phaedrumId ius laudem civibus blandit, ne per vero referrentur, laoreet omnesque te sed. Sed congue munere laoreet ex, no partem scripta concludaturque eam. Ea autem velit pericula sea, meis saepe mei at, quem sensibus salutatus ut has. Detracto principes mei ad, ponderum sapientem liberavisse et mea, ut maiorum officiis inciderint his. No putant latine pro. Duo ea alia iudicabit elaboraret, sea ei omnes dignissim, mea et graeci persius. Ea vim iriure vivendum, sed vidisse albucius te.</div>');
-        $("#divbir").fadeOut( "slow" );
-        $("#diviki").fadeOut( "slow" );
+        $('.cikanyazi').text(mytext).show();
+
+        $("#divbir").hide();
+        $("#diviki").hide();
+        $(".kapatbtn").show(); 
+
     }
 
 );
@@ -212,7 +222,9 @@ $("#icerikucresim").click(
 function geridon () 
 {
     $(".cikanyazi").hide();
+    $(".kapatbtn").hide();   
     $("#diviki, #divuc, #divbir").show();
+
 }
 
 

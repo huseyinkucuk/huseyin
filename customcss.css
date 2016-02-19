@@ -27,12 +27,19 @@
 	float: right;
 	margin-right: 74px;
 }
-.w100{
+.w100
+{
 	width: 100%;
 	text-align: center;
 	max-height: 300px;
 	min-height: 300px;
 }
+.kapatbtn
+{
+	float: right;
+    margin-right: 17px
+}
+
 
 /* -------------------------------------------------------------------- */
 
