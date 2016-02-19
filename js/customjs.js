@@ -1,14 +1,19 @@
 //document ready
-$(function(){
-    
+$(function(){ 
 	$("#solbtn").text("Sonraki renk : " + renkler[0]);
-
+    
+    // document ready
+    $('.elaman').hide();
+    $('.elaman:eq(0)').show();
+    $('.elaman:eq(0) img').attr("src", elemanlar[glb_siradakiEleman].resim);
+    $('.elaman:eq(0) h3').text(elemanlar[glb_siradakiEleman].baslik);
+    $('.elaman:eq(0) p').text(elemanlar[glb_siradakiEleman].yazi);
 });
 
 /* -------------------------------------------------NAVBAR----------------------------------- */
 
  /* ---------------------------------------------- NAVBAR BACROUND BUTTONS ------------------ */
- function mavi()
+function mavi()
 {
 	//document.body.style.backgroundColor = "blue";
 	//$("body").css("background-color", "blue");
@@ -34,6 +39,11 @@ function gri()
 {
     $("body").css({backgroundColor : "gray"});
 }
+
+//function renkDegistir(renk)
+//{
+//    $("body").css({backgroundColor : renk});
+//}
 
 /* --------------------------------- AUTO BACKGROUND DEGISTIRME --------------------------------------- */
 
@@ -89,6 +99,7 @@ function yaz()
 
 function toggleSubMenu()
 {
+    console.log('asdasd');
     $('#subMenu').html("").toggle();
     
     for (var i=0; i < kutular.length; i++)
@@ -106,6 +117,8 @@ function toggleSubMenu()
         
         $('#subMenu').append(kutu);
     }
+    
+    console.log("burda");
 }
 
 var kutular = [
@@ -159,16 +172,6 @@ var kutular = [
 
 /* ----------------------------------------  SLIDER  ----------------------------------------- */
 /* --------------------------------------  SLIDER  BUTONLARI --------------------------------- */
-
-
-$(function(){
-    // document ready
-    $('.elaman').hide();
-    $('.elaman:eq(0)').show();
-    $('.elaman:eq(0) img').attr("src", elemanlar[glb_siradakiEleman].resim);
-    $('.elaman:eq(0) h3').text(elemanlar[glb_siradakiEleman].baslik);
-    $('.elaman:eq(0) p').text(elemanlar[glb_siradakiEleman].yazi);
-});
 
 var glb_siradakiEleman = 0;
 
