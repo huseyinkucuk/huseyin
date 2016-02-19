@@ -63,3 +63,12 @@
 	background: pink;
     margin-top: 100px;
 }
+
+/* ------------------------- menu altlik ---------------------------- */
+
+.menualtlik
+{
+	display: none;
+	padding-left: 17px;
+	padding-bottom: 15px;
+}
