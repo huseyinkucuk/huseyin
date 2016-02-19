@@ -1,4 +1,9 @@
+//document ready
+$(function(){
+    
+	$("#solbtn").text("Sonraki renk : " + renkler[0]);
 
+});
 
 /* -------------------------------------------------NAVBAR----------------------------------- */
 
@@ -53,58 +58,86 @@ function yaz()
 	}
 }
 
-$(function(){
-	$("#solbtn").text("Sonraki renk : " + renkler[0]);
 
-});
 
 
 
 /* ------------------------------------------------------------------------------------------- */
+//
+//$(function mindir () {
+//
+//        $( "#slideac" ).click(function() 
+//        {   
+//            function divcikaran () 
+//                {
+//                    var text="<div>";
+//                    for (var i=0; i=kutular.length; i++) { text  }
+//
+//                }
+//
+//            $( "#asagikayan" ).slideToggle( "slow" );
+//
+//            $( "#asagikayan" ).append("");
+//
+//
+//
+//        });
+//
+//
+//    });
 
-$(
-    function mindir () 
+
+function toggleSubMenu()
+{
+    $('#subMenu').html("").toggle();
+    
+    for (var i=0; i < kutular.length; i++)
     {
-
-        $( "#slideac" ).click(function() 
-        {   
-            function divcikaran () 
-                {
-                    var text="<div>";
-                    for (var i=0; i=kutular.length; i++) { text  }
-
-                }
-
-            $( "#asagikayan" ).slideToggle( "slow" );
-
-            $( "#asagikayan" ).append("");
-
-
-
-        });
-
-
+        var kutu  = "<div class='col-sm-2'>";
+                kutu += "<a href='"+kutular[i].link+"'>";
+                    kutu += "<div class='thumbnail'>";
+                        kutu += "<img src='" + kutular[i].resim + "' />";
+                        kutu += "<h4 class='text-center'>"+ kutular[i].yazi +"</h4>";
+                    kutu += "</div>";
+                kutu += "</a>";
+            kutu += "</div>";
+        
+        
+        
+        $('#subMenu').append(kutu);
     }
-
-);
-
+}
 
 var kutular = [
     {
         "resim" : "http://lorempixel.com/200/200/animals/1",
-        "yazi"  : "somethinsomethinsomethin"
+        "yazi"  : "Lorem ipsum",
+        "link"  : "http://www.google.com"
     },
     {
         "resim" : "http://lorempixel.com/200/200/animals/2",
-        "yazi"  : "somethinsomethinsomethin"
+        "yazi"  : "Dolor sit amet",
+        "link"  : "http://www.google.com"
     },
     {
         "resim" : "http://lorempixel.com/200/200/animals/3",
-        "yazi"  : "somethinsomethinsomethin"
+        "yazi"  : "Lorem hede",
+        "link"  : "http://www.google.com"
     },
     {
         "resim" : "http://lorempixel.com/200/200/animals/4",
-        "yazi"  : "somethinsomethinsomethin"
+        "yazi"  : "Lorem ipsum dolor",
+        "link"  : "http://www.google.com"
+    },
+    {
+        "resim" : "http://lorempixel.com/200/200/animals/5",
+        "yazi"  : "Lorem ipsum dolor",
+        "link"  : "http://www.google.com"
+    },
+    {
+        "resim" : "http://lorempixel.com/200/200/animals/6",
+        "yazi"  : "Lorem ipsum dolor",
+        "link"  : "http://www.google.com"
     }
 ];
 
